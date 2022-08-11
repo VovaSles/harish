@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NaviBar from './components/NaviBar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Hugim from './pages/Hugim';
+import Ligot from './pages/Ligot';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NaviBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/hugim" element={<Hugim />} />
+          <Route path="/ligot" element={<Ligot />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
