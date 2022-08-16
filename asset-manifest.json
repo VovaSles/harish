@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/harish/static/css/main.4de0fa12.css",
+    "main.js": "/harish/static/js/main.690da22b.js",
+    "static/js/787.6435d1af.chunk.js": "/harish/static/js/787.6435d1af.chunk.js",
+    "static/media/kids.jpg": "/harish/static/media/kids.b0fc10d48399ee7753d2.jpg",
+    "static/media/logo_dark.png": "/harish/static/media/logo_dark.2116147473f75ce28480.png",
+    "static/media/vladibasket.jpg": "/harish/static/media/vladibasket.1af1ae1b6fa65f378d60.jpg",
+    "index.html": "/harish/index.html",
+    "main.4de0fa12.css.map": "/harish/static/css/main.4de0fa12.css.map",
+    "main.690da22b.js.map": "/harish/static/js/main.690da22b.js.map",
+    "787.6435d1af.chunk.js.map": "/harish/static/js/787.6435d1af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4de0fa12.css",
+    "static/js/main.690da22b.js"
+  ]
+}
