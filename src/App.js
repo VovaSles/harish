@@ -17,9 +17,9 @@ function App() {
       <Router>
         <NaviBar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/hugim" element={<Hugim />} />
-          <Route path="/ligot" element={<Ligot />} />
+          <Route path="harish/" element={<Home />} />
+          <Route path="harish/hugim" element={<Hugim />} />
+          <Route path="harish/ligot" element={<Ligot />} />
         </Routes>
         <Footer />
       </Router>
