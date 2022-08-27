@@ -15,7 +15,7 @@ const NaviBar = () => {
                 <Nav.Link as={Link} to="harish/ligot">ליגות</Nav.Link>
             </Nav>
             <Nav>
-                <Nav.Link as={Link} to="harish/"><Navbar.Brand className='ml-auto' style={{ marginLeft: '2rem' }}><img src={logo} alt='logo' width="70"
+                <Nav.Link as={Link} to="/harish"><Navbar.Brand className='ml-auto' style={{ marginLeft: '2rem' }}><img src={logo} alt='logo' width="70"
                     height="70" /></Navbar.Brand></Nav.Link>
 
             </Nav>
