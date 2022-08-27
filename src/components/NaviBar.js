@@ -11,8 +11,8 @@ const NaviBar = () => {
             <Navbar.Toggle aria-controls='responsive-nav' />
             <Navbar.Collapse id='responsive-nav' />
             <Nav className="mr-auto">
-                <Nav.Link as={Link} to="harish/hugim">חוגים</Nav.Link>
-                <Nav.Link as={Link} to="harish/ligot">ליגות</Nav.Link>
+                <Nav.Link as={Link} to="/harish/hugim">חוגים</Nav.Link>
+                <Nav.Link as={Link} to="/harish/ligot">ליגות</Nav.Link>
             </Nav>
             <Nav>
                 <Nav.Link as={Link} to="/harish"><Navbar.Brand className='ml-auto' style={{ marginLeft: '2rem' }}><img src={logo} alt='logo' width="70"
